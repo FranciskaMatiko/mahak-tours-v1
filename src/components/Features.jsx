@@ -1,4 +1,5 @@
- 
+import TourCardsSection from './TourCardsSection'
+
 const Features = () => {
   return (
     <>
@@ -9,6 +10,7 @@ const Features = () => {
       </span>
       <h2 className="text-3xl  sm:text-5xl lg:text-6xll mt-10 lg:mt-20 tracking-wide font-bold">Explore the world with us</h2>
       </div>
+      <TourCardsSection />
     </div>
     </>
   )

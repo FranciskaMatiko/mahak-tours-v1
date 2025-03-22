@@ -1,6 +1,9 @@
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import TourCardsSection from "./components/TourCardsSection";
+import SafariTripsSection from "./components/SafariTripsSection"; 
+import SafariToursSection from "./components/SafariToursSection";
 
 export default function App() {
   return (
@@ -10,6 +13,8 @@ export default function App() {
         <Hero />
       </div>
       <Features />
+      <SafariTripsSection />
+      <SafariToursSection />
 
     </>
   )
