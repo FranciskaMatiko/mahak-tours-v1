@@ -12,14 +12,71 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
+export const website = {
+  title: "Mahak Tours and Adventure",
+  description:
+    "Exploring all that Tanzania has to offer is a dream for many. From epic Tanzania safari adventures spotting Africa’s Big Five, to climbing Kilimanjaro or relaxing on the paradise beaches of Zanzibar: Tanzania travel has it all. Looking for a taste of everything? Mahak Tours and Adventure create custom Africa travel itineraries suited to your every need – down to the very last detail.",
+  logo: "https://mahaktours.com/wp-content/uploads/2021/06/mahak-tours-logo.png",
+  social: {
+    facebook: "https://www.facebook.com/mahaktours",
+    twitter: "https://twitter.com/mahaktours",
+    instagram: "https://www.instagram.com/mahaktours/",
+    linkedin: "https://www.linkedin.com/company/mahaktours/",
+  },
+};
+
+
+
 export const navItems = [
   { label: "Home", href: "#" },
-  { label: "All Safaries", href: "#" },
-  { label: "Trekking", href: "#" },
-  { label: "Day Trips", href: "#" },
-  { label: "Zanzibar", href: "#" },
-  { label: "About Us", href: "#" },
-  { label: "Contacts", href: "#" }
+  { 
+    label: "All Safaris", 
+    href: "#",
+    subItems: [
+      { label: "Wildlife Safaris", href: "#" },
+      { label: "Cultural Safaris", href: "#" }
+    ]
+  },
+  { 
+    label: "Trekking", 
+    href: "#",
+    subItems: [
+      { label: "Kilimanjaro", href: "#" },
+      { label: "Meru", href: "#" }
+    ]
+  },
+  { 
+    label: "Day Trips", 
+    href: "#",
+    subItems: [
+      { label: "Short Nature Walks", href: "#" },
+      { label: "Local Village Tours", href: "#" }
+    ]
+  },
+  { 
+    label: "Zanzibar", 
+    href: "#",
+    subItems: [
+      { label: "Beach Holidays", href: "#" },
+      { label: "Historical Tours", href: "#" }
+    ]
+  },
+  { 
+    label: "About Us", 
+    href: "#",
+    subItems: [
+      { label: "Our Story", href: "#" },
+      { label: "Our Team", href: "#" }
+    ]
+  },
+  { 
+    label: "Contacts", 
+    href: "#",
+    subItems: [
+      { label: "Contact Form", href: "#" },
+      { label: "Location Map", href: "#" }
+    ]
+  }
 ];
 
 export const testimonials = [
