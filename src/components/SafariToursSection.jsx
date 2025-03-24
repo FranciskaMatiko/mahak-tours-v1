@@ -5,7 +5,7 @@ const SafariToursSection = () => {
     <div className="container mx-auto px-4 py-12">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <SafariTourCard
-          imageUrl="https://source.unsplash.com/random/800x600/?giraffe"
+          imageUrl="https://www.lakemanyaranationalparks.com/wp-content/uploads/2021/02/Serengeti-National-Park-725x450.jpg"
           title="5 Days Tanzania Luxury Safari"
           location="Serengeti National Park"
           price="2100.00"
@@ -16,7 +16,7 @@ const SafariToursSection = () => {
           hasVideo={true}
         />
         <SafariTourCard
-          imageUrl="https://source.unsplash.com/random/800x600/?elephant"
+          imageUrl="https://www.tanzania-experience.com/wp-content/uploads/2024/01/serengeti-national-park.jpg"
           title="Fly-In Safari From Arusha To Serengeti"
           location="From Arusha To Serengeti"
           price="4260.00"
@@ -27,7 +27,7 @@ const SafariToursSection = () => {
           hasVideo={true}
         />
         <SafariTourCard
-          imageUrl="https://source.unsplash.com/random/800x600/?safari"
+          imageUrl="https://kilisatours.com/images/tour-safari/4-days-budgeted-camping-safari-serengeti-ngorongoro-banner.jpg"
           title="5 Days Northern Tanzania Budget Camping Safari"
           location="Tanzania"
           price="1500.00"
