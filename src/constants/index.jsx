@@ -28,13 +28,13 @@ export const website = {
 
 
 export const navItems = [
-  { label: "Home", href: "#" },
+  { label: "Home", href: "/" },
   { 
     label: "All Safaris", 
     href: "#",
     subItems: [
-      { label: "Wildlife Safaris", href: "#" },
-      { label: "Cultural Safaris", href: "#" }
+      { label: "Wildlife Safaris", href: "/Wildlife_Safaris" },
+      { label: "Cultural Safaris", href: "/Cultural_Safaris" }
     ]
   },
   { 
@@ -63,7 +63,7 @@ export const navItems = [
   },
   { 
     label: "About Us", 
-    href: "#",
+    href: "/about",
     subItems: [
       { label: "Our Story", href: "#" },
       { label: "Our Team", href: "#" }
