@@ -65,8 +65,8 @@ export const navItems = [
     label: "About Us", 
     href: "/about",
     subItems: [
-      { label: "Our Story", href: "#" },
-      { label: "Our Team", href: "#" }
+      { label: "Our Story", href: "/about" },
+      { label: "Our Team", href: "/about" }
     ]
   },
   { 
