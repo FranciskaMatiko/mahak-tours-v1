@@ -3,6 +3,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import WildlifeSafiris from './pages/WildlifeSafaris';
+import AboutUs from './pages/AboutUs';
+import Contact from './pages/Contact';
+import MapPage from './pages/MapPage';
 
 export default function App() {
   return (
@@ -13,7 +16,8 @@ export default function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/gallery"  />
         <Route path="/Wildlife_Safaris"  element={<WildlifeSafiris />}/>
-        <Route path="/contact" />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/map" element={<MapPage />} />
         <Route path="*" /> 
       </Routes>
       <Footer />

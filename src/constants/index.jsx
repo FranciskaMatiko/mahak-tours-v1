@@ -12,6 +12,7 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
+
 export const website = {
   title: "Mahak Tours and Adventure",
   description:
@@ -71,10 +72,10 @@ export const navItems = [
   },
   { 
     label: "Contacts", 
-    href: "#",
+    href: "/contact",
     subItems: [
-      { label: "Contact Form", href: "#" },
-      { label: "Location Map", href: "#" }
+      { label: "Contact Form", href: "/contact" },
+      { label: "Location Map", href: "/map" }
     ]
   }
 ];
@@ -235,4 +236,21 @@ export const communityLinks = [
   { href: "#", text: "Conferences" },
   { href: "#", text: "Hackathons" },
   { href: "#", text: "Jobs" },
+];
+
+export const contacts = [
+  {
+    address: "UDOM DODOMA,Tanzania ",
+    phone1: "+255 753225961",
+    phone2: "+255 752840889",
+    email: "info@mahak.com.tz",
+    facebook:"#",
+    instagram:"#",
+    twitter:"#",
+    linkedin:"#",
+    unknown:"#"
+
+
+
+  }
 ];
