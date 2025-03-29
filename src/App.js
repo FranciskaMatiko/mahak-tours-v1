@@ -6,6 +6,7 @@ import WildlifeSafaris from './pages/WildlifeSafaris';
 import AboutUs from './pages/AboutUs';
 import Contact from './pages/Contact';
 import MapPage from './pages/MapPage';
+import Zanzibar from './pages/Zanzibar';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/Wildlife_Safaris"  element={<WildlifeSafaris />}/>
         <Route path="/contact" element={<Contact />} />
         <Route path="/map" element={<MapPage />} />
+        <Route path="/Zanzibar" element={<Zanzibar />} />
         <Route path="*" /> 
       </Routes>
       <Footer />

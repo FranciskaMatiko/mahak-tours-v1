@@ -23,7 +23,7 @@ const ZanzHeader = ({ title }) => {
   }, []);
 
   return (
-    <div className="relative h-64 bg-cover bg-center" style={{ backgroundImage: "url('https://source.unsplash.com/random/1920x1080/?beach')" }}>
+    <div className="relative h-64 bg-cover bg-center" style={{ backgroundImage: "url('https://z.cdrst.com/foto/hotel-sf/1247ce7d/granderesp/foto-hotel-1247c3d3.jpg')" }}>
       <div className="absolute inset-0 bg-gray-900 bg-opacity-70" />
       <div className="relative flex items-center justify-center h-full">
         <h1 

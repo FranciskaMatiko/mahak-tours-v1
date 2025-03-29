@@ -57,9 +57,9 @@ export const navItems = [
   },
   { 
     label: "Zanzibar", 
-    href: "#",
+    href: "/Zanzibar",
     subItems: [
-      { label: "Beach Holidays", href: "#" },
+      { label: "Beach Holidays", href: "/Zanzibar" },
       { label: "Historical Tours", href: "#" }
     ]
   },
